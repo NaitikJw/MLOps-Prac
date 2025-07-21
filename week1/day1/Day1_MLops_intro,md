@@ -1,0 +1,30 @@
+# Day 1 - Introduction to MLOps
+
+## What is MLOps?
+MLOps = DevOps + ML. It is a set of practices to automate, monitor, and deploy ML models.
+
+## Why MLOps?
+- Reproducibility
+- Monitoring
+- Automation
+- Model Management
+
+## MLOps Lifecycle:
+1. Data Ingestion
+2. Cleaning
+3. Model Training
+4. Evaluation
+5. Deployment
+6. Monitoring
+
+## MLOps vs DevOps
+
+| Feature            | DevOps         | MLOps                       |
+|--------------------|----------------|------------------------------|
+| Focus              | Code           | Code + Data + Models         |
+| CI/CD              | App Deployment | Training + Deployment        |
+| Monitoring         | Logs           | Accuracy + Drift             |
+
+## Real Life Example
+Loan Approval ML model → Data + Model + Drift Monitoring = MLOps
+
