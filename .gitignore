@@ -1,7 +1,9 @@
 # Datasets
 *.csv
 *.xlsx
-data/
+data/*
+!data/*.dvc
+
 
 # Model files
 *.pkl
